@@ -1,2 +1,9 @@
 # iot-food
-A project to feed an animal via internet using NodeMCU v3, Raspberry Pi 3 B and one StepperMotor
+Um projeto para alimentar o animal doméstico via internet.
+
+Materiais:
+
+Raspberry Pi 3B
+NodeMCU v3
+Bateria externa
+Motor de passos com micro controlador
