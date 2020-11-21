@@ -10,11 +10,12 @@ const char* userName = "Moretti";
 const char* passWord = "chico103";
 
 const int stepsPerRevolution = 200;  // change this to fit the number of steps per revolution
-// initialize the stepper library on D1,D2,D5,D6
+// stepper library on D1,D2,D5,D6
 Stepper myStepper(stepsPerRevolution, D1, D2, D5, D6);
 WiFiClient espClient;
 PubSubClient client(espClient);
 
+//Configurar o WIFI
 void setup_wifi() {
    delay(100);
   // We start by connecting to a WiFi network
@@ -33,6 +34,7 @@ void setup_wifi() {
   Serial.println(WiFi.localIP());
 }
 
+//Configurando as ações
 void callback(char* topic, byte* payload, unsigned int length) 
 {
   Serial.print("Executando comando via MQTT: [ topico:");
@@ -110,6 +112,7 @@ void reconnect() {
   }
 } //end reconnect()
 
+//Executa as funções
 void setup() {
   Serial.begin(115200);
   setup_wifi();
