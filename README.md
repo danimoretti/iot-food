@@ -21,4 +21,4 @@ Instalar no Raspberry PI 3 B o sistema do HomeAssistant - https://github.com/hom
 Configurar o dispositivo de acordo com a sua rede local e validar a conexão entre o NodeMCU com o Raspberry.
 
 
-Video explicando a conexão entre os dispositivos e a estrutura dos jumpers entre o NodeMCU e o Micro Controlador do Motor de passos -> https://www.youtube.com/watch?v=ZqD2OyDVG9s&feature=youtu.be
+Video explicando o script, a conexão entre os dispositivos e a estrutura dos jumpers entre o NodeMCU e o Micro Controlador do Motor de passos -> https://www.youtube.com/watch?v=ZqD2OyDVG9s&feature=youtu.be
