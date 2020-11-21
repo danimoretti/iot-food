@@ -9,7 +9,9 @@ Bateria externa
 Motor de passos com micro controlador
 
 Bibliotecas utilizadas no ArduinoIDE
+
 PubSubClient -> Para utilizar o protocolo MQTT
+
 Stepper -> Para utilizar  o motor de passos
 
 Basta carregar o iot-food ao modulo NodeMCU v3
